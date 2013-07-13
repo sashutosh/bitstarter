@@ -17,18 +17,18 @@
 		padding-top:15px;
 	
 	}
-	.navigation, .pitch, .section1 , .section2, .faq, .footer{
+	.navigation, .pitch, .section1, .section2, .faq, .footer{
 		padding: 10px 0px 10px 0px;	
 	}
 	.video, .thermometer, .order, .social
 	{
-		border:1px dotted;
-		text-align:center;
+		border: 1px dotted;
+		text-align: center;
 	}
 	.video{
 	/* Internal borders have 1 px width this need to add 4X1px to  120px*/
 		height: 124px;
-		line-height:124px;
+		line-height: 124px;
 
 	}
 	.thermometer, .order, .social{
@@ -62,23 +62,47 @@
 	<div class = "rowsubheading">
 	  <div class = "span12">
  	    <p class = "lead">
-	     This is my first bitstarter projec
+	     This is my first bitstarter project
   	    </p>
 	  </div>
 	</div>
-
-
-		
-
-
-
- 
-
-           
-	
-
-
-
+        <div class = "row pitch"> 
+	  <div class = "span6 video">
+	     Video
+	  </div>
+	  <div class = "span6">
+	     <div class = "thermometer">
+	       Thermometer
+	     </div>
+	     <div class = "order">
+	       Order
+	     </div>
+	     <div class = "social">
+	       Social
+	     </div>
+	  </div>
+	</div>
+	<div class = "row section1">
+	  <div class ="span12">
+	    Marketing section 1
+	  </div>
+	</div>
+	<div class = "row section2">
+  	  <div class ="span12">
+	    Marketing section 2
+	  </div>
+	</div>	
+	<div class ="row faq">
+       	    <div class ="span12">
+	      FAQ
+	    </div>
+	</div>
+	<div class ="row footer">
+       	    <div class ="span12">
+	      Footer
+	    </div>
+	  </div>
+       s</div>
 </body>
 </html>
 
